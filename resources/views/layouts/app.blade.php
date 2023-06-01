@@ -16,9 +16,9 @@
 </head>
 
 <body>
-
+    @include('partials.header')
     <main>
-        <h1 class="text-center">Hello</h1>
+        @yield('content')
     </main>
 
 </body>
